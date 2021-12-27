@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    /* position: sticky; */
+    top: 0;
+    padding: 0 30px;
+    background-color: white;
+    box-shadow: 0 0 10px 1px grey;
+}
+
+.info {
+    display: flex;
+}
+
+.logo {
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.info h1 {
+    margin: 29px 0 0 20px;
+}
+
+.navigation {
+    margin: 0 auto;
+    padding: 33px 0;
+}
+
+.navigation a {
+    padding-right: 15px;
+    color: blue;
+    text-decoration: none;
+    font-size: large;
+}
+
+.navigation a:hover {
+    color: red;
+}
+
+main {
+    margin: 0 204px;
+}
+
+.section {
+    margin: 40px 0;
+}
+
+main .section h2 {
+    margin: 0 0 20px;
+    border-left: 4px solid blue;
+    padding-left: 5px;
+    color: grey;
+}
+
+main .section p {
+    margin: 0;
+}
+
+footer {
+    box-shadow: 0 0 10px 1px grey;
+    text-align: center;
+    padding: 36px;
+}
+
+footer .address {
+    padding-right: 50px;
+}
